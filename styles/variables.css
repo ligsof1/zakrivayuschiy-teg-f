@@ -1,1 +1,43 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --background-color: rgba(255, 255, 255, 1);
+  --border-color: rgba(0, 0, 0, 1);
+  --code-tag-color:rgba(255, 255, 255, 1);
+  --button-background-color:rgba(255, 255, 255, 1);
+  --accent-color: #000000;
+  --hover-button-background-color: #000000;
+  --floppy-icon-fill: #fff;
+  --button-text-color: #fff;
+  --contour-heart:#000;
+  --main-body-heart: transparent;
+  --core-heart: transparent;
+  --contour-color: red;
+  --contour-heart-hover: #000;
+  --main-body-heart-hover: #000;
+  --core-heart-hover: #000;
+  --core-heart-active: red;
+  --main-body-heart-active: red;
+  --contour-heart-active:#000;
+  --liked-icon-core: red;
+  --liked-icon-main-body: red;
+  --liked-icon-contour: red;
+  --page-background: 
+    /* горизонтальные полоски */
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    /* вертикальные полоски */
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    /* плавный градиент сверху вниз */
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0.01%,
+      #1a1a1a 100%
+    );
+}
