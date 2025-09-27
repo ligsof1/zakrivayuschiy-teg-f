@@ -175,7 +175,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--button-background-color); 
+  background: var(--button-background-color);
   font-family: "PressStart2P", monospace;
   font-size: 14px;
   transition: box-shadow 0.3s ease;
